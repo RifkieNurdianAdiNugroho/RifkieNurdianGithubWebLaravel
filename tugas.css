@@ -1,0 +1,65 @@
+h2{
+	color: black;
+	text-align: center;
+	background-color: cyan;
+}
+
+.p1{
+	color: red;
+	font-style: normal;
+}
+.p2{
+	font-family: Times New Roman;
+	font-size: 42px;
+	color: yellow;
+	font-weight: normal;
+	background-color: white;
+	-webkit-text-stroke:3px black;
+}
+
+.p3{
+	font-family: Times New Roman;
+	font-size: 16px;
+	color: yellow;
+	font-weight: normal;
+	background-color: white;
+	-webkit-text-stroke:0.7px black;
+}
+
+.f1{
+	color: black;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	height: 50px;
+	width: 100px;
+	background: yellow;
+}
+
+.l1{
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	top: 0;
+	background-color: yellow;
+	border: 2px solid #4CAF50;
+}
+
+.link{
+	font-size: 30px;
+}
+
+
+.link:hover{
+	color: red;
+}
+
+
+.link:link{
+	color: blue;
+	background-color: white;
+}
+
+body{
+	background: url(logo1.PNG);
+	
+}
